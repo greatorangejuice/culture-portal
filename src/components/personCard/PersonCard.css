@@ -1,0 +1,21 @@
+.person-card-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    height: 200px;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    margin: 3px;
+}
+
+.read-more-button {
+    display: inline-block;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 24px;
+    border-radius: 3px;
+    border-bottom: none;
+    background-color: #282c34;
+    outline: none;
+}

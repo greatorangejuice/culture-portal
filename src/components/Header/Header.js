@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from '../../img/logo.png';
 import {Link} from 'react-router-dom';
-// import './Header.css';
+import './Header.css';
 
 export default class Header extends Component {
     render() {
@@ -12,14 +12,13 @@ export default class Header extends Component {
                         <img style={{ width: "50px", height: "50px"}} src={logo} alt="logo"/>
                     </Link>
                     <div className="header-title-container">
-                        <p className="header-title">Photo.by</p>
-                        <p className="header-subtitle">Портал фотографов Беларуси</p>
+                        <h1 className="header-subtitle">Белорусские поэты</h1>
                     </div>
                     <nav>
                         <ul>
                             <li>
-                                <Link to="/persons">
-                                    Поэты
+                                <Link to="/">
+                                    Главная
                                 </Link>
                             </li>
                         </ul>

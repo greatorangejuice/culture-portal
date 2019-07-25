@@ -1,0 +1,9 @@
+input {
+    width: 50vw;
+    height: 30px;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
