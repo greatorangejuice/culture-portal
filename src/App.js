@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import MainPage from './containers/MainPage/MainPage';
+// import CommonPage from './containers/CommonPage/CommonPage';
+import PersonalPage from './containers/PersonalPage/PersonalPage';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Persons from "./containers/Persons/Persons";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  state={
+    person: 0
+  };
+  onButtonClick = (event) => {
+    this.setState({
+      person: event.target.id
+    })
+  };
+
+  render() {
+    return (
+        <Router>
+          <div>
+            <Header/>
+            <Route path="/"
+                   render={(props) => <MainPage
+                       onButtonClick={this.onButtonClick}/>}
+                   exact/>
+            <Route path="/personalpage"
+                   render={(props) => <PersonalPage person={this.state.person}/>}
+                   exact/>
+            <Route path="/persons"
+                   render={(props) => <Persons person={this.state.person}/>}
+                   exact/>
+            <Footer/>
+          </div>
+        </Router>
+    );
+  }
 }
-
-export default App;
