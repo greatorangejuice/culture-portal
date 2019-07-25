@@ -21,6 +21,11 @@ export default class Header extends Component {
                                     Главная
                                 </Link>
                             </li>
+                            <li>
+                                <Link to="/developers">
+                                    Разработчики
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>

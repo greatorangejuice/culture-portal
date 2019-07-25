@@ -13,5 +13,5 @@ Time tracker
 |-------------|-------------|
 | 1h | add base structure |
 | 2h | add persons cards with database |
-| 4h | setup image gallery |
+| 4h | setup routes, set props, add initial json |
 

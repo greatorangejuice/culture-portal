@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import MainPage from './containers/MainPage/MainPage';
 import PersonalPage from './containers/PersonalPage/PersonalPage';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Developers from "./components/Developers/Developers";
 
 export default class App extends Component {
   state={
@@ -26,6 +27,9 @@ export default class App extends Component {
                    exact/>
             <Route path="/personalpage"
                    render={(props) => <PersonalPage person={this.state.person}/>}
+                   exact/>
+            <Route path="/developers"
+                   render={(props) => <Developers/>}
                    exact/>
             <Footer/>
           </div>
