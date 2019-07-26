@@ -15,3 +15,10 @@ Time tracker
 | 2h | add persons cards with database |
 | 4h | setup routes, set props, add initial json |
 
+Time tracker
+*natescorp*
+
+| time spent | feature |
+|-------------|-------------|
+| 4h | add data in json collection |
+
