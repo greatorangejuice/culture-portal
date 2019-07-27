@@ -1,19 +1,20 @@
 import React from 'react';
 import Avatar from '../../components/Avatar/Avatar'
 import Description from '../../components/Description/Descriptipon';
-import AuthorsTimeline from '../../components/Timeline/AuthorsTimeline'
+import Container from "@material-ui/core/Container";
 
 import data from '../../data/authors';
 
 function PersonalPage(props) {
     let profile = data[props.person];
-    console.log('profile', profile);
     return (
-        <div className="personal-page">
-            <Avatar data={profile}/>
-            <Description data={profile}/>
-            <AuthorsTimeline activities = {profile.activity}/>
-        </div>
+        <Container maxWidth="md">
+            <div className="personal-page">
+                <Avatar data={profile}/>
+                <Description data={profile}/>
+
+            </div>
+        </Container>
     );
 }
 
