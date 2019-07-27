@@ -23,5 +23,13 @@ Time tracker
 |-------------|-------------|
 | 4h | add data in json collection |
 | 7h | investigation and implementation Material UI |
-| 3h | add a component for list of works |
+
+Time tracker
+*TomSssM*
+
+| time spent | feature |
+|-------------|-------------|
+| 2h | learning the basics of Material UI |
+| 3h | add Video Component ( and keep learning Material UI ) |
+| 2h | add a component for list of works |
 
