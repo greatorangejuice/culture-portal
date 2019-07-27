@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../../data/developers'
 import Avatar from "../../components/Avatar/Avatar";
-import Links from "../../components/Links/Links";
+import PersonalInfo from "../../components/PersonalInfo/PersonalInfo";
 
 function DevelopersPage(props) {
 
@@ -10,7 +10,7 @@ function DevelopersPage(props) {
             return (
                 <div key={index}>
                     <Avatar data={item}/>
-                    <Links data={item}/>
+                    <PersonalInfo data={item}/>
                 </div>
             );
         })
