@@ -6,6 +6,7 @@ import data from '../../data/authors';
 
 function PersonalPage(props) {
     let profile = data[props.person];
+    console.log('profile', profile);
     return (
         <div className="personal-page">
             <Avatar data={profile}/>
