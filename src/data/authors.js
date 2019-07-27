@@ -19,6 +19,7 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        youTubeVideoId: 'WzJFsmUvTzI',
         activity: [
             {
                 date: '24.02.1935',
@@ -66,6 +67,7 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        youTubeVideoId: 'y7q6WXFqP2I',
         activity: [
             {
                 date: '25.06.1905',
@@ -142,6 +144,7 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        youTubeVideoId: 'Ic6BBVPd5lc',
         activity: [
             {
                 date: '23.04.1886',
@@ -184,6 +187,7 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        youTubeVideoId: 'gSHXeS3sXmk',
         activity: [
             {
                 date: '23.04.1886',
@@ -243,6 +247,7 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        youTubeVideoId: 'CNNB9f5tCHM',
         activity: [
             {
                 date: '03.06.1935',
@@ -299,6 +304,7 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        youTubeVideoId: 'S5y5RxN-Xeg',
         activity: [
             {
                 date: '18.05.1972',
