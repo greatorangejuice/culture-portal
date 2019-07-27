@@ -22,4 +22,5 @@ Time tracker
 | time spent | feature |
 |-------------|-------------|
 | 4h | add data in json collection |
+| 7h | investigation and implementation Material UI |
 
