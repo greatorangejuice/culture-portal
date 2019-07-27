@@ -7,7 +7,6 @@ import data from '../../data/authors';
 
 function PersonalPage(props) {
     let profile = data[props.person];
-    console.log('profile', profile);
     return (
         <Container maxWidth="md">
             <div className="personal-page">
