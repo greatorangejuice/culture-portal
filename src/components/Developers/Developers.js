@@ -5,11 +5,6 @@ function Developers() {
     return (
        <div>
            <h1>Разработчики</h1>
-            <div>
-                <div>
-                    <span>Name Surname</span>
-                </div>
-            </div>
        </div>
     )
 }
