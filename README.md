@@ -23,4 +23,5 @@ Time tracker
 |-------------|-------------|
 | 4h | add data in json collection |
 | 7h | investigation and implementation Material UI |
+| 3h | add a component for list of works |
 
