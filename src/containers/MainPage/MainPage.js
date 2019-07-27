@@ -1,5 +1,6 @@
 import React from 'react';
-// import Button from "@material-ui/core/Button";
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
 // import Typography from "@material-ui/core/Typography";
 // import authors from "../../data/authors";
 import PersonCard from "../../components/personCard/PersonCard";
@@ -8,12 +9,21 @@ import Search from "../../components/Search/Search";
 
 function MainPage(props) {
     return (
-        <div className="main-page-container">
-            <Search />
-            <div className="authors-list">
-                <PersonCard onButtonClick={props.onButtonClick}/>
+        <Container maxWidth="xl">
+            <div className="main-page-container">
+                <Search />
+                <div className="authors-list">
+                    <Grid
+                        container
+                        direction="row"
+                        justify="space-evenly"
+                        alignItems="center"
+                    >
+                        <PersonCard onButtonClick={props.onButtonClick}/>
+                    </Grid>
+                </div>
             </div>
-        </div>
+        </Container>
     )
 }
 
