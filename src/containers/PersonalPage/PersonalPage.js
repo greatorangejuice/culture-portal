@@ -5,6 +5,7 @@ import Container from "@material-ui/core/Container";
 import AuthorsTimeline from '../../components/Timeline/AuthorsTimeline'
 import data from '../../data/authors';
 import Video from '../../components/Video/Video';
+import WorkList from '../../components/WorkList/WorkList';
 
 function PersonalPage(props) {
     const profile = data[props.person];
@@ -15,6 +16,7 @@ function PersonalPage(props) {
                 <Description data={profile}/>
                 <AuthorsTimeline activities = {profile.activity}/>
                 <Video data={profile}/>
+                <WorkList data={profile}/>
             </div>
         </Container>
     );

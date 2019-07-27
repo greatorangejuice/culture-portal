@@ -19,6 +19,20 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        works: [
+            {
+                name: 'Месяц над степью',
+                publishYear: '1959',
+            },
+            {
+                name: 'Слова о полку Игореве',
+                publishYear: '1986',
+            },
+            {
+                name: "Руны Перуновы",
+                publishYear: "2006",
+            }
+        ],
         youTubeVideoId: 'WzJFsmUvTzI',
         activity: [
             {
@@ -67,6 +81,24 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        works: [
+            {
+                name: "Цэхавыя будні",
+                publishYear: "1931",
+            },
+            {
+                name: "Прыход героя",
+                publishYear: "1935",
+            },
+            {
+                name: "Вершы і паэмы",
+                publishYear: "1940",
+            },
+            {
+                name: "Пахне чабор",
+                publishYear: "1959",
+            },
+        ],
         youTubeVideoId: 'y7q6WXFqP2I',
         activity: [
             {
@@ -144,6 +176,20 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        works: [
+            {
+                name: "Пад родным небам",
+                publishYear: "1922",
+            },
+            {
+                name: "Буралом",
+                publishYear: "1925",
+            },
+            {
+                name: "Тры пальцы",
+                publishYear: "1930",
+            },
+        ],
         youTubeVideoId: 'Ic6BBVPd5lc',
         activity: [
             {
@@ -187,6 +233,24 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        works: [
+            {
+                name: "Песня ў дарогу",
+                publishYear: "1957",
+            },
+            {
+                name: "Прадвесне ідзе па зямлі",
+                publishYear: "1959",
+            },
+            {
+                name: "Неспакой",
+                publishYear: "1961",
+            },
+            {
+                name: "Дождж-грыбасей",
+                publishYear: "1966",
+            },
+        ],
         youTubeVideoId: 'gSHXeS3sXmk',
         activity: [
             {
@@ -247,6 +311,24 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        works: [
+            {
+                name: "Крэсіва",
+                publishYear: "1960",
+            },
+            {
+                name: "Крутаяр",
+                publishYear: "1969",
+            },
+            {
+                name: "Маўчанне травы",
+                publishYear: "1980",
+            },
+            {
+                name: "Лета трывожных дажджоў",
+                publishYear: "1990",
+            },
+        ],
         youTubeVideoId: 'CNNB9f5tCHM',
         activity: [
             {
@@ -304,6 +386,16 @@ export default [
             lat: '53.902496',
             lng: '27.561481'
         },
+        works: [
+            {
+                name: "Выше неба",
+                publishYear: "2012",
+            },
+            {
+                name: "ГараШ",
+                publishYear: "2015",
+            },
+        ],
         youTubeVideoId: 'S5y5RxN-Xeg',
         activity: [
             {

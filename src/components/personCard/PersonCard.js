@@ -8,7 +8,8 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
-function personCard(props) {
+
+function personCard({ onButtonClick }) {
     const term = '';
 
     function search(arr, searchWord) {
@@ -33,7 +34,7 @@ function personCard(props) {
                                                 variant="outlined">
                                             <Link to="/personalpage"
                                                   id={index}
-                                                  onClick={props.onButtonClick}>
+                                                  onClick={onButtonClick}>
                                                 Узнать больше
                                             </Link>
                                         </Button>

@@ -51,9 +51,12 @@ function Video({ data: { youTubeVideoId, id }, width, height}) {
 }
 
 Video.propTypes = {
-    data: PropTypes.shape().isRequired,
+    data: PropTypes.shape({
+        youTubeVideoId: PropTypes.string.isRequired,
+        id: PropTypes.number.isRequired,
+    }).isRequired,
     width: PropTypes.number,
-    height: PropTypes.number
+    height: PropTypes.number,
 };
 
 Video.defaultProps = {
