@@ -1,0 +1,9 @@
+.video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 0 4px #ffffff40;
+}
