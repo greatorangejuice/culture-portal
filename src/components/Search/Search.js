@@ -5,17 +5,29 @@ import Container from '@material-ui/core/Container';
 import NativeSelect from '@material-ui/core/NativeSelect';
 
 class Search extends Component {
-  heldeChangeName = (e) => {
+    state = {
+        value: {value: this.props.value}
+    };
+
+  handleChangeName = (e) => {
     const clientRequest = e.target.value;
     this.props.onChangeName(clientRequest.toLowerCase());
   };
 
-  heldeChangeCity = (e) => {
+  handleChangeCity = (e) => {
     const clientRequest = e.target.value;
-    this.props.onChangeCity(clientRequest);
+      this.props.onChangeCity(clientRequest);
+      this.setState({ value: e.target.value });
+
   };
 
   render() {
+      const dictionary = [
+          { value: '', label: 'Все места' },
+          { value: 'Минск', label: 'Минская область' },
+          { value: 'Витебская область', label: 'Витебская область' },
+          { value: 'Виленская губерния', label: 'Виленская губерния' },
+      ];
     return (
       <>
         <Container className="search-container">
@@ -26,21 +38,19 @@ class Search extends Component {
             className="search"
             margin="normal"
             variant="outlined"
-            onChange={this.heldeChangeName}
+            onChange={this.handleChangeName}
           />
         </Container>
         <Container className="select-container">
           <NativeSelect
-              value=''
-              onChange={this.heldeChangeCity}
+              value={this.state.value}
+              onChange={this.handleChangeCity}
               className="selectCity"
+              name={this.props.name}
           >
-            <option value="" selected>
-              Место рождения
-            </option>
-            <option value="Минск">Минская область</option>
-            <option value="Витебская область">Витебская область</option>
-            <option value="Виленская губерния">Виленская губерния</option>
+              {dictionary.map(
+                  ({ value, label }) => <option key={value} value={value}>{label}</option>
+              )}
           </NativeSelect>
         </Container>
       </>
