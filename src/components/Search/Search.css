@@ -1,8 +1,10 @@
-.search {
-    width: 50vw;
+.search,
+.selectCity {
+  width: 50vw;
 }
-.search-container {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
+.search-container,
+.select-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
