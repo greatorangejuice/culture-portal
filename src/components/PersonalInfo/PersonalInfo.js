@@ -8,10 +8,10 @@ function PersonalInfo(props) {
                 <p>{props.data.name}</p>
             </Typography>
             <Typography component="p" variant="subtitle2">
-                <p><a href={props.data.gitLink} target="_blank">GitHub</a></p>
+                <a href={props.data.gitLink} target="_blank" rel="noopener noreferrer">GitHub</a>
             </Typography>
             <Typography component="p" variant="subtitle2">
-                <p><a href={props.data.mailLink} target="_blank">EMAIL: {props.data.mailLink}</a></p>
+                <a href={props.data.mailLink} target="_blank" rel="noopener noreferrer">EMAIL: {props.data.mailLink}</a>
             </Typography>
         </div>
     )
