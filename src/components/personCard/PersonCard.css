@@ -21,3 +21,9 @@
     background-color: #282c34;
     outline: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .person-card-container {
+        width: 90vw;
+    }
+}
