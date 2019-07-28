@@ -1,10 +1,18 @@
 .search,
 .selectCity {
-  width: 50vw;
+  width: 90vw;
 }
+
 .search-container,
 .select-container {
   display: flex;
   justify-content: center;
   margin: 10px;
+}
+
+@media screen and (min-width: 1024px){
+  .search,
+  .selectCity {
+    width: 50vw;
+  }
 }

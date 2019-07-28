@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Search.css';
 import TextField from '@material-ui/core/TextField';
 import Container from '@material-ui/core/Container';
+import NativeSelect from '@material-ui/core/NativeSelect';
 
 class Search extends Component {
   heldeChangeName = (e) => {
@@ -28,15 +29,19 @@ class Search extends Component {
             onChange={this.heldeChangeName}
           />
         </Container>
-        <Container className="select-continer">
-          <select onChange={this.heldeChangeCity} className="selectCity">
+        <Container className="select-container">
+          <NativeSelect
+              value=''
+              onChange={this.heldeChangeCity}
+              className="selectCity"
+          >
             <option value="" selected>
               Место рождения
             </option>
             <option value="Минск">Минская область</option>
             <option value="Витебская область">Витебская область</option>
             <option value="Виленская губерния">Виленская губерния</option>
-          </select>
+          </NativeSelect>
         </Container>
       </>
     );

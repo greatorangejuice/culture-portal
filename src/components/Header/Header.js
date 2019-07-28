@@ -24,8 +24,8 @@ export default class Header extends Component {
                                     <img style={{ width: "50px", height: "50px"}} src={logo} alt="logo"/>
                                 </Link>
                             </Typography>
-                            <Typography variant="h6" align="center" color="inherit" className="header-title-container">
-                                Белорусские поэты
+                            <Typography variant="h4" align="center" color="inherit">
+                                <span className="header-title">Белорусские поэты</span>
                             </Typography>
                             <Typography variant="h6" align="right" color="inherit">
                                 <Button color="inherit">
