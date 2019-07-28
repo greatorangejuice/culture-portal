@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/culture-portal/static/css/main.0d4e25c5.chunk.css",
+    "main.js": "/culture-portal/static/js/main.c8f4e53f.chunk.js",
+    "main.js.map": "/culture-portal/static/js/main.c8f4e53f.chunk.js.map",
+    "runtime~main.js": "/culture-portal/static/js/runtime~main.59c327e9.js",
+    "runtime~main.js.map": "/culture-portal/static/js/runtime~main.59c327e9.js.map",
+    "static/css/2.3bbdb7e9.chunk.css": "/culture-portal/static/css/2.3bbdb7e9.chunk.css",
+    "static/js/2.ba0acad1.chunk.js": "/culture-portal/static/js/2.ba0acad1.chunk.js",
+    "static/js/2.ba0acad1.chunk.js.map": "/culture-portal/static/js/2.ba0acad1.chunk.js.map",
+    "index.html": "/culture-portal/index.html",
+    "precache-manifest.46fc7cbd97ace8fcb5aeb879f1bfb0b6.js": "/culture-portal/precache-manifest.46fc7cbd97ace8fcb5aeb879f1bfb0b6.js",
+    "service-worker.js": "/culture-portal/service-worker.js",
+    "static/css/2.3bbdb7e9.chunk.css.map": "/culture-portal/static/css/2.3bbdb7e9.chunk.css.map",
+    "static/css/main.0d4e25c5.chunk.css.map": "/culture-portal/static/css/main.0d4e25c5.chunk.css.map",
+    "static/media/Borodulin_RI.jpg": "/culture-portal/static/media/Borodulin_RI.71e896b0.jpg",
+    "static/media/Brovka_PU.jpg": "/culture-portal/static/media/Brovka_PU.566e1fef.jpg",
+    "static/media/Byadulya_Z.jpg": "/culture-portal/static/media/Byadulya_Z.c24c8454.jpg",
+    "static/media/Gilevich_NS.jpg": "/culture-portal/static/media/Gilevich_NS.be744338.jpg",
+    "static/media/JerryMouse.png": "/culture-portal/static/media/JerryMouse.077e8cb0.png",
+    "static/media/Kullinkovich_AM.jpg": "/culture-portal/static/media/Kullinkovich_AM.7a651f9a.jpg",
+    "static/media/Zuenok_VV.jpg": "/culture-portal/static/media/Zuenok_VV.94f3397a.jpg",
+    "static/media/index.css": "/culture-portal/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  }
+}
