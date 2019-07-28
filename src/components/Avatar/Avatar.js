@@ -1,6 +1,5 @@
 import React from 'react';
 import './Avatar.css';
-import Ava from '@material-ui/core/Avatar';
 
 function Avatar(props) {
     return (
