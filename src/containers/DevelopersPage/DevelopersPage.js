@@ -12,9 +12,9 @@ function DevelopersPage() {
     const devepolers = data.map((item, index) => {
         return (
 
-            <div className="dev-card" key={index}>
+            <div className="dev-card-container" key={index}>
                 <Card>
-                    <CardContent>
+                    <CardContent className="dev-card">
                         <Avatar data={item}/>
                         <PersonalInfo data={item}/>
                     </CardContent>

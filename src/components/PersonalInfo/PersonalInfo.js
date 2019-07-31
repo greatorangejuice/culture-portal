@@ -3,7 +3,7 @@ import Typography from "@material-ui/core/Typography";
 
 function PersonalInfo(props) {
     return (
-        <div >
+        <div className="person-info-container">
             <Typography variant="h5" component="h4">
                 <p>{props.data.name}</p>
             </Typography>
