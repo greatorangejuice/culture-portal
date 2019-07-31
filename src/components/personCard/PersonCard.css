@@ -9,6 +9,7 @@
     align-items: center;
     max-width: 400px;
     min-height: 300px;
+    position: relative;
  }
 
 .read-more-button {
@@ -21,6 +22,10 @@
     border-bottom: none;
     background-color: #282c34;
     outline: none;
+}
+
+.author-of-the-day .author-of-the-day__container {
+    background-color: #f1f1f1;
 }
 
 @media screen and (max-width: 1024px) {

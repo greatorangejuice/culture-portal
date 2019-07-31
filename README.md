@@ -32,6 +32,7 @@ _TomSssM_
 | 2h         | learning the basics of Material UI                    |
 | 3h         | add Video Component ( and keep learning Material UI ) |
 | 2h         | add a component for list of works                     |
+| 2h         | add Author of the Day ( component + algorithm )       |
 
 Time tracker
 _belofelcita_

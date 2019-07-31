@@ -1,6 +1,7 @@
 import React from 'react';
 import Avatar from '../../components/Avatar/Avatar';
 import Summary from '../../components/Description/Summary';
+import AuthorOfTheDayLabel, { calculateAuthorOfTheDayIndex } from '../../components/AuthorOfTheDay/AuthorOfTheDay';
 import { Link } from 'react-router-dom';
 import './PersonCard.css';
 import Card from '@material-ui/core/Card';
@@ -17,13 +18,20 @@ function personCard({ onButtonClick, onSearch }) {
 
   const visibleItems = term === '' ? onSearch : search(onSearch, term);
 
+  const authorOftheDayIndex = calculateAuthorOfTheDayIndex();
+
   return visibleItems.map((item, index) => {
+    const isAuthorOfTheDay = authorOftheDayIndex === index;
     return (
-      <div className="card-container" key={index}>
+      <div
+          className={`card-container ${isAuthorOfTheDay ? 'author-of-the-day' : ''}`}
+          key={index}
+      >
         <Card>
-          <CardContent>
+          <CardContent className="author-of-the-day__container">
             <div className="person-card-container">
               <Avatar data={item} />
+              { isAuthorOfTheDay ? <AuthorOfTheDayLabel /> : '' }
               <div className="description-container">
                 <Summary data={item} />
                 <CardActions>
