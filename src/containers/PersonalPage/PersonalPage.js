@@ -4,12 +4,14 @@ import Description from '../../components/Description/Descriptipon';
 import Container from '@material-ui/core/Container';
 import AuthorsTimeline from '../../components/Timeline/AuthorsTimeline';
 import data from '../../data/authors';
+import dataPhoto from '../../data/gallery';
 import Video from '../../components/Video/Video';
 import Gallery from '../../components/Gallery/Gallery';
 import WorkList from '../../components/WorkList/WorkList';
 
 function PersonalPage(props) {
   const profile = data[props.person];
+  const photo = dataPhoto[props.person];
   return (
     <Container maxWidth="md">
       <div className="personal-page">
@@ -17,7 +19,7 @@ function PersonalPage(props) {
         <Description data={profile} />
         <AuthorsTimeline activities={profile.activity} />
         <Video data={profile} />
-        <Gallery data={profile} />
+        <Gallery data={photo} />
         <WorkList data={profile} />
       </div>
     </Container>
