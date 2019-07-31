@@ -1,18 +1,43 @@
-import avatar_1 from '../img/developersPhotos/JerryMouse.png'
+import avatar_1 from '../img/developersPhotos/RomanPetrikhin.jpg'
+import avatar_2 from '../img/developersPhotos/YanaKorduba.jpg'
+import avatar_3 from '../img/developersPhotos/KartasauIlya.jpg'
+import avatar_4 from '../img/developersPhotos/KartasauIlya.jpg'
+import avatar_5 from '../img/developersPhotos/PavelSnigirev.jpg'
 
 export default [
     {
         id: 1,
-        name: 'Name Surname',
+        name: 'Roman Petrukhin',
         avatar: avatar_1,
-        gitLink: 'https://github.com/',
-        mailLink: 'https://mail@gmail.com/',
+        gitLink: 'https://github.com/natescorp',
+        mailLink: 'natescorp@mail.ru',
     },
     {
         id: 2,
-        name: 'Name2 Surname2',
-        avatar: avatar_1,
-        gitLink: 'https://github.com2/',
-        mailLink: 'https://mail@gmail.com2/',
+        name: 'Yana Korduba',
+        avatar: avatar_2,
+        gitLink: 'https://github.com/felcilive',
+        mailLink: 'belofelcita@gmail.com',
+    },
+    {
+        id: 3,
+        name: 'Kartasau Ilya',
+        avatar: avatar_3,
+        gitLink: 'https://github.com/TomSssM',
+        mailLink: 'ilyashome3@gmail.com',
+    },
+    {
+        id: 4,
+        name: 'Viktar Svintsitski',
+        avatar: avatar_3,
+        gitLink: 'https://github.com/jetalai3',
+        mailLink: 'jetalai3@gmail.com',
+    },
+    {
+        id: 5,
+        name: 'Pavel Snigirev',
+        avatar: avatar_5,
+        gitLink: 'https://github.com/greatorangejuice',
+        mailLink: 'bypavelsnigirev@gmail.com',
     },
 ];
