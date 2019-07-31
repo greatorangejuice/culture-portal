@@ -1,4 +1,3 @@
-/* eslint-disable no-useless-concat */
 import avatar_1 from '../img/avatars/Borodulin_RI.jpg';
 import avatar_2 from '../img/avatars/Brovka_PU.jpg';
 import avatar_3 from '../img/avatars/Byadulya_Z.jpg';
@@ -377,7 +376,7 @@ export default [
   },
   {
     id: 6,
-    name: 'Александр Михайлович Куллинкович',
+    name: 'Александр Михайлович Кулинкович',
     avatar: avatar_6,
     occupation: 'музыкант, поэт, журналист, актёр, певец, композитор',
     birthDate: '18.05.1972',
