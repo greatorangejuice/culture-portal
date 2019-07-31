@@ -1,7 +1,6 @@
 import React from 'react';
 import Avatar from '../../components/Avatar/Avatar';
 import Summary from '../../components/Description/Summary';
-import data from '../../data/authors';
 import { Link } from 'react-router-dom';
 import './PersonCard.css';
 import Card from '@material-ui/core/Card';

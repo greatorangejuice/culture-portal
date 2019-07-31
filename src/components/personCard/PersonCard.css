@@ -4,10 +4,11 @@
 }
 
 .person-card-container {
-     display: flex;
-     justify-content: space-between;
-     max-width: 400px;
-     min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    min-height: 300px;
  }
 
 .read-more-button {
@@ -20,4 +21,10 @@
     border-bottom: none;
     background-color: #282c34;
     outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .person-card-container {
+        width: 90vw;
+    }
 }

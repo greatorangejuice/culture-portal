@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+.header-title{
+    font-family: 'Pacifico', cursive;
+}
+
 a {
     text-decoration: none;
     color: #282c34;
