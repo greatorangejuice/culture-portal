@@ -1,0 +1,18 @@
+.gallery-container {
+  margin-top: 3em;
+  display: 'flex';
+  flex-wrap: 'wrap';
+  justify-content: 'space-around';
+  overflow: 'hidden';
+}
+
+.grid-list {
+  max-width: 1000px;
+  max-height: 1200px;
+  border: solid #e86971 3px;
+  min-height: 200px;
+}
+
+.grid-list img:hover {
+  cursor: pointer;
+}
