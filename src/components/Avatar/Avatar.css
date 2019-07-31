@@ -1,6 +1,15 @@
 .avatar img{
     width: 150px;
-    height: 200px;
+    height: auto;
     border-radius: 5%;
-    margin: 15px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .avatar img{
+        width: 130px;
+        height: auto;
+        border-radius: 5%;
+        margin: 15px;
+    }
 }

@@ -4,10 +4,11 @@
 }
 
 .person-card-container {
-     display: flex;
-     justify-content: space-between;
-     max-width: 400px;
-     min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    min-height: 300px;
  }
 
 .read-more-button {

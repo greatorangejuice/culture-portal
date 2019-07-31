@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 function Summary(props) {
     return (
         <div>
-            <Typography variant="h4" component="h3">
+            <Typography variant="h4" component="h4">
                 {props.data.name}
             </Typography>
             <Typography component="p" variant="subtitle2">
