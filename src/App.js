@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import LanguageSelector from './components/LanguageSelector/LaungageSelector'
 import MainPage from './containers/MainPage/MainPage';
 import PersonalPage from './containers/PersonalPage/PersonalPage';
 import DevelopersPage from './containers/DevelopersPage/DevelopersPage';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
+import { withNamespaces } from 'react-i18next';
 // import Developers from "./components/Developers/Developers";
 
-export default class App extends Component {
+class App extends Component {
   state={
     person: 0
   };
@@ -22,6 +24,7 @@ export default class App extends Component {
     return (
         <Router>
           <div>
+            <LanguageSelector/>
             <Header/>
             <Route path="/"
                    render={(props) => <MainPage
@@ -39,3 +42,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default withNamespaces()(App);

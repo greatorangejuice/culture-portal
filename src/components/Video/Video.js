@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './Video.css';
 import Modal from '@material-ui/core/Modal';
 import Button from '@material-ui/core/Button';
+import i18n from '../../i18n';
 
 function Video({ data: { youTubeVideoId, id }, width, height}) {
     const url = `https://www.youtube.com/embed/${youTubeVideoId}`;
@@ -21,7 +22,7 @@ function Video({ data: { youTubeVideoId, id }, width, height}) {
             variant="contained"
                 onClick={openModal}
             >
-                Посмотреть видео
+                {i18n.t('watchVideo')}
             </Button>
             <Modal
                 open={modalVisible}
