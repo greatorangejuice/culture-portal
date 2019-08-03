@@ -8,6 +8,7 @@ import dataPhoto from '../../data/gallery';
 import Video from '../../components/Video/Video';
 import Gallery from '../../components/Gallery/Gallery';
 import WorkList from '../../components/WorkList/WorkList';
+import YandexMap from "../../components/Map/YandexMap";
 
 function PersonalPage(props) {
   const profile = data[props.person];
@@ -21,6 +22,7 @@ function PersonalPage(props) {
         <Video data={profile} />
         <Gallery data={photo} />
         <WorkList data={profile} />
+        <YandexMap data={profile}/>
       </div>
     </Container>
   );
