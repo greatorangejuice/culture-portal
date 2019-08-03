@@ -7,18 +7,19 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
 import './WorkList.css';
+import i18n from '../../i18n';
 
 const WorkList = ({ data: { works } }) => {
     return (
         <Fragment>
             <Typography className="work-list__title" variant="h5" component="h4">
-                Список Произведений:
+                {i18n.t('workList')} 
             </Typography>
             <Table>
                 <TableHead>
                     <TableRow>
-                        <TableCell>Произведение</TableCell>
-                        <TableCell>Год Публикации</TableCell>
+                        <TableCell>{i18n.t('work')} </TableCell>
+                        <TableCell>{i18n.t('publicationYear')} </TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
