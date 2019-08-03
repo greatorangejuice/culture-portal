@@ -8,6 +8,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import i18n from '../../i18n';
 
 export default class Header extends Component {
     render() {
@@ -25,17 +26,17 @@ export default class Header extends Component {
                                 </Link>
                             </Typography>
                             <Typography variant="h4" align="center" color="inherit">
-                                <span className="header-title">Белорусские поэты</span>
+                                <span className="header-title">{i18n.t('header')}</span>
                             </Typography>
                             <Typography variant="h6" align="right" color="inherit">
                                 <Button color="inherit">
                                     <Link to="/">
-                                        Главная
+                                        {i18n.t('mainPage')}
                                     </Link>
                                 </Button>
                                 <Button color="inherit">
                                     <Link to="/developers">
-                                        Разработчики
+                                        {i18n.t('developers')}
                                     </Link>
                                 </Button>
                             </Typography>

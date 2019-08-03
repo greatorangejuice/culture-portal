@@ -3,6 +3,7 @@ import './Search.css';
 import TextField from '@material-ui/core/TextField';
 import Container from '@material-ui/core/Container';
 import NativeSelect from '@material-ui/core/NativeSelect';
+import i18n from '../../i18n';
 
 class Search extends Component {
     state = {
@@ -33,7 +34,7 @@ class Search extends Component {
         <Container className="search-container">
           <TextField
             id="outlined-search"
-            label="Поиск"
+            label={i18n.t('search')}
             type="search"
             className="search"
             margin="normal"

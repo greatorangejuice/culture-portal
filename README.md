@@ -41,3 +41,11 @@ _belofelcita_
 | time spent | feature    |
 | ---------- | ---------- |
 | 4h         | add search |
+
+Time tracker
+_jetalai3_
+
+| time spent | feature                                          |
+| ---------- | -------------------------------------------------|
+| 3h         | add timeline component                           |
+| 5h         | studying and implementation of i18next framework |
