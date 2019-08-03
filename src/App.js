@@ -12,7 +12,6 @@ export default class App extends Component {
     person: 0
   };
   onButtonClick = (event) => {
-    console.log(event)
     this.setState({
       person: event.target.id
     })

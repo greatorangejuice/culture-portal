@@ -15,6 +15,7 @@ _greatorangejuice_
 | 2h         | add persons cards with database           |
 | 4h         | setup routes, set props, add initial json |
 | 1h      | add developers page                       |
+| 1h      | add Yandex Maps                       |
 
 Time tracker
 _natescorp_
