@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import LanguageSelector from './components/LanguageSelector/LaungageSelector'
+import LanguageSelector from './components/LanguageSelector/LanguageSelector'
 import MainPage from './containers/MainPage/MainPage';
 import PersonalPage from './containers/PersonalPage/PersonalPage';
 import DevelopersPage from './containers/DevelopersPage/DevelopersPage';
