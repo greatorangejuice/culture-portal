@@ -46,3 +46,4 @@ export default [
     partOfWork: `created base structure of the project and developer's page and also setup geowidget`,
   },
 ];
+
