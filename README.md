@@ -38,11 +38,12 @@ _TomSssM_
 Time tracker
 _belofelcita_
 
-| time spent | feature               |
-| ---------- | --------------------- |
-| 4h         | add search            |
-| 4h         | add gallery           |
-| 1h         | add search in english |
+| time spent | feature                                          |
+| ---------- | ------------------------------------------------ |
+| 4h         | add search                                       |
+| 4h         | add gallery                                      |
+| 1h         | add search in english                            |
+| 1h         | add information about work on the Developer page |
 
 Time tracker
 _jetalai3_
