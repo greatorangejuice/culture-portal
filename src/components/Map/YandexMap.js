@@ -8,7 +8,7 @@ function YandexMap(props) {
           <div className="map">
               <h5>Значимое место</h5>
               <YMaps>
-                  <Map defaultState={{center: [lat, lng], zoom: 15,}}>
+                  <Map defaultState={{center: [lat, lng], zoom: 11,}}>
                       <Placemark geometry={[lat, lng]}/>
                   </Map>
               </YMaps>
