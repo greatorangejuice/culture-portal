@@ -18,8 +18,8 @@ export default [
     deathDate: '02.03.2014',
     deathPlace: 'Минск, Беларусь',
     locationsCoords: {
-      lat: '53.902496',
-      lng: '27.561481',
+      lat: '55.150823',
+      lng: '28.692594',
     },
     works: [
       {
@@ -83,8 +83,8 @@ export default [
     deathDate: '24.03.1980',
     deathPlace: 'Минск, БССР, СССР',
     locationsCoords: {
-      lat: '53.902496',
-      lng: '27.561481',
+      lat: '54.937914',
+      lng: '28.383295',
     },
     works: [
       {
@@ -177,8 +177,8 @@ export default [
     deathDate: '03.11.1941',
     deathPlace: 'Уральск, Казахская ССР, СССР',
     locationsCoords: {
-      lat: '53.902496',
-      lng: '27.561481',
+      lat: '54.427583',
+      lng: '27.492275',
     },
     works: [
       {
@@ -237,8 +237,8 @@ export default [
     deathDate: '29.03.2016',
     deathPlace: 'Минск, Беларусь',
     locationsCoords: {
-      lat: '53.902496',
-      lng: '27.561481',
+      lat: '54.274108',
+      lng: '27.709397',
     },
     works: [
       {
@@ -318,8 +318,8 @@ export default [
     birthDate: '03.06.1935',
     birthPlace: 'д. Мачулищи, Крупский район, Минская область, Белорусская ССР, СССР',
     locationsCoords: {
-      lat: '53.902496',
-      lng: '27.561481',
+      lat: '54.455155',
+      lng: '28.928465',
     },
     works: [
       {
@@ -395,8 +395,8 @@ export default [
     deathDate: '04.08.2018',
     deathPlace: 'Минск, Беларусь',
     locationsCoords: {
-      lat: '53.902496',
-      lng: '27.561481',
+      lat: '54.029867',
+      lng: '28.089726',
     },
     works: [
       {
