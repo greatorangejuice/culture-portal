@@ -1,12 +1,22 @@
-.dev-card-container{
-    margin: 15px;
+.dev-card-container {
+  margin: 15px;
 }
 
-.dev-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 390px;
+.dev-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+}
 
+.information {
+  color: #e86971;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.person-info-container span {
+  text-decoration: underline;
 }

@@ -11,7 +11,7 @@ function LanguageSelector({ t, changeLang }) {
   };
 
   return (
-    <div>
+    <div className="lang">
       <Button onClick={() => changeLanguage('ru')}>Русский</Button>
       <Button onClick={() => changeLanguage('by')}>Беларуская</Button>
       <Button onClick={() => changeLanguage('en')}>English</Button>
