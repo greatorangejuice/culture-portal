@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/culture-portal/precache-manifest.46fc7cbd97ace8fcb5aeb879f1bfb0b6.js"
+  "/culture-portal/precache-manifest.ecda7e103d16980e707242b9b2a28d3e.js"
 );
 
 self.addEventListener('message', (event) => {
