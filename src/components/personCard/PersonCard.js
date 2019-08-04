@@ -4,6 +4,7 @@ import Summary from '../../components/Description/Summary';
 import AuthorOfTheDayLabel, { calculateAuthorOfTheDayIndex } from '../../components/AuthorOfTheDay/AuthorOfTheDay';
 import { Link } from 'react-router-dom';
 import './PersonCard.css';
+import data from '../../data/authors';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
@@ -22,17 +23,14 @@ function personCard({ onButtonClick, onSearch }) {
   const authorOftheDayIndex = calculateAuthorOfTheDayIndex();
 
   return visibleItems.map((item, index) => {
-    const isAuthorOfTheDay = authorOftheDayIndex === index;
+    const isAuthorOfTheDay = data[authorOftheDayIndex].name === visibleItems[index].name;
     return (
-      <div
-          className={`card-container ${isAuthorOfTheDay ? 'author-of-the-day' : ''}`}
-          key={index}
-      >
+      <div className={`card-container ${isAuthorOfTheDay ? 'author-of-the-day' : ''}`} key={index}>
         <Card>
           <CardContent className="author-of-the-day__container">
             <div className="person-card-container">
               <Avatar data={item} />
-              { isAuthorOfTheDay ? <AuthorOfTheDayLabel /> : '' }
+              {isAuthorOfTheDay ? <AuthorOfTheDayLabel /> : ''}
               <div className="description-container">
                 <Summary data={item} />
                 <CardActions>
