@@ -1,9 +1,10 @@
 import React from 'react';
 import './AuthorOfTheDay.css';
 import authors from '../../data/authors';
+import i18n from '../../i18n';
 
 const AuthorOfTheDay = () => (
-    <span className="author-of-the-day-card">{`Автор дня ${String.fromCodePoint(0x1F3C5)}`}</span>
+    <span className="author-of-the-day-card">{`${i18n.t('authorOfTheDay')} ${String.fromCodePoint(0x1F3C5)}`}</span>
 );
 
 export const calculateAuthorOfTheDayIndex = () => {

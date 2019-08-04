@@ -51,3 +51,4 @@ _jetalai3_
 | ---------- | ------------------------------------------------ |
 | 3h         | add timeline component                           |
 | 5h         | studying and implementation of i18next framework |
+| 1h         | add belarussian localization                     |
