@@ -54,7 +54,7 @@ _jetalai3_
 | 5h         | studying and implementation of i18next framework |
 | 1h         | add belarussian localization                     |
 
-##Total scope - **190**
+## Total scope - **190**
 ### Min scope - **40**
 - [x] **10** Main page + page with a list of authors + author's page (only html);
 - [x] **10** Page with list of authors contains search widget;
