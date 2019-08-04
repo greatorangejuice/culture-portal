@@ -25,7 +25,7 @@ class Gallery extends React.Component {
       <GridList spacing={20} className="gallery-container">
         {imgData.map((tile) => (
           <GridListTile key={tile.img} cols={1} rows={1} className="grid-list">
-            <img src={tile.img} alt={tile.title} onClick={() => this.handleOpen(tile.img)} />
+            <img src={tile.img} alt={tile.title} onClick={() => this.handleOpen(tile.img)} onTouchStart={() => this.handleOpen(tile.img)} />
             <GridListTileBar title={tile.title} titlePosition="bottom" className="titleBar" />
           </GridListTile>
         ))}
