@@ -6,9 +6,9 @@ import NativeSelect from '@material-ui/core/NativeSelect';
 import i18n from '../../i18n';
 
 class Search extends Component {
-    state = {
-        value: {value: this.props.value}
-    };
+  state = {
+    value: { value: this.props.value },
+  };
 
   handleChangeName = (e) => {
     const clientRequest = e.target.value;
@@ -17,18 +17,11 @@ class Search extends Component {
 
   handleChangeCity = (e) => {
     const clientRequest = e.target.value;
-      this.props.onChangeCity(clientRequest);
-      this.setState({ value: e.target.value });
-
+    this.props.onChangeCity(clientRequest);
+    this.setState({ value: e.target.value });
   };
 
   render() {
-      const dictionary = [
-          { value: '', label: 'Все места' },
-          { value: 'Минск', label: 'Минская область' },
-          { value: 'Витебская область', label: 'Витебская область' },
-          { value: 'Виленская губерния', label: 'Виленская губерния' },
-      ];
     return (
       <>
         <Container className="search-container">
@@ -43,15 +36,19 @@ class Search extends Component {
           />
         </Container>
         <Container className="select-container">
-          <NativeSelect
-              value={this.state.value}
-              onChange={this.handleChangeCity}
-              className="selectCity"
-              name={this.props.name}
-          >
-              {dictionary.map(
-                  ({ value, label }) => <option key={value} value={value}>{label}</option>
-              )}
+          <NativeSelect value={this.state.value} onChange={this.handleChangeCity} className="selectCity" name={this.props.name}>
+            <option key={''} value={''}>
+              {i18n.t('all_place')}
+            </option>
+            <option key={'Минск'} value={'Минск'}>
+              {i18n.t('minsk')}
+            </option>
+            <option key={'Витебская область'} value={'Витебская область'}>
+              {i18n.t('vitebsk')}
+            </option>
+            <option key={'Виленская губерния'} value={'Виленская губерния'}>
+              {i18n.t('vilna')}
+            </option>
           </NativeSelect>
         </Container>
       </>
