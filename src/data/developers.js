@@ -11,6 +11,7 @@ export default [
         avatar: avatar_1,
         gitLink: 'https://github.com/natescorp',
         mailLink: 'natescorp@mail.ru',
+        worklog: 'UI'
     },
     {
         id: 2,
@@ -18,6 +19,7 @@ export default [
         avatar: avatar_2,
         gitLink: 'https://github.com/felcilive',
         mailLink: 'belofelcita@gmail.com',
+        worklog: 'Functional'
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ export default [
         avatar: avatar_3,
         gitLink: 'https://github.com/TomSssM',
         mailLink: 'ilyashome3@gmail.com',
+        worklog: 'Functional, translate'
     },
     {
         id: 4,
@@ -32,6 +35,7 @@ export default [
         avatar: avatar_4,
         gitLink: 'https://github.com/jetalai3',
         mailLink: 'jetalai3@gmail.com',
+        worklog: 'Functional'
     },
     {
         id: 5,
@@ -39,5 +43,6 @@ export default [
         avatar: avatar_5,
         gitLink: 'https://github.com/greatorangejuice',
         mailLink: 'bypavelsnigirev@gmail.com',
+        worklog: 'Functional'
     },
 ];
