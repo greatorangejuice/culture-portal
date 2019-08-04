@@ -11,12 +11,10 @@ export const calculateAuthorOfTheDayIndex = () => {
     const authorsCount = authors.length;
     const today = new Date().getDate();
     const currentDay = Number(localStorage.getItem('dayTracked'));
-    if (!currentDay) {
-        localStorage.setItem('dayTracked', today);
-    }
     if (currentDay !== today) {
         const newAuthorOfTheDayIndex = Math.floor(Math.random() * authorsCount);
         localStorage.setItem('authorOfTheDay', newAuthorOfTheDayIndex);
+        localStorage.setItem('dayTracked', today);
         return newAuthorOfTheDayIndex;
     }
     return Number(localStorage.getItem('authorOfTheDay'));
