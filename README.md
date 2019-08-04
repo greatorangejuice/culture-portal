@@ -34,6 +34,7 @@ _TomSssM_
 | 3h         | add Video Component ( and keep learning Material UI ) |
 | 2h         | add a component for list of works                     |
 | 2h         | add Author of the Day ( component + algorithm )       |
+| 2.5h       | bug fixes                                             |
 
 Time tracker
 _belofelcita_
