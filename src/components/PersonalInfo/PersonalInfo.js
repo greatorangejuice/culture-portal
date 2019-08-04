@@ -13,6 +13,9 @@ function PersonalInfo(props) {
             <Typography component="p" variant="subtitle2">
                 <a href={props.data.mailLink} target="_blank" rel="noopener noreferrer">EMAIL: {props.data.mailLink}</a>
             </Typography>
+            <Typography component="p" variant="subtitle2">
+               <p>{props.data.worklog}</p>
+            </Typography>
         </div>
     )
 }
