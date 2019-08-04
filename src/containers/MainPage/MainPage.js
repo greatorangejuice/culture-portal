@@ -17,6 +17,8 @@ class MainPage extends React.Component {
       value = this.state.rememberCity.filter((item) => item.name.toLowerCase().includes(clientRequest));
     } else if (this.props.currentLang === 'en') {
       value = this.state.rememberCity.filter((item) => item.englishName.toLowerCase().includes(clientRequest));
+    } else if (this.props.currentLang === 'by') {
+      value = this.state.rememberCity.filter((item) => item.belarusianName.toLowerCase().includes(clientRequest));
     }
 
     if (!clientRequest) {
