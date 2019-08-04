@@ -12,7 +12,13 @@ class MainPage extends React.Component {
   state = { searchData: data, rememberName: data, rememberCity: data, request: '' };
 
   changeName = (clientRequest) => {
-    const value = this.state.rememberCity.filter((item) => item.name.toLowerCase().includes(clientRequest));
+    let value;
+    if (this.props.currentLang === 'ru') {
+      value = this.state.rememberCity.filter((item) => item.name.toLowerCase().includes(clientRequest));
+    } else if (this.props.currentLang === 'en') {
+      value = this.state.rememberCity.filter((item) => item.englishName.toLowerCase().includes(clientRequest));
+    }
+
     if (!clientRequest) {
       this.setState({ rememberName: data, searchData: this.state.rememberCity });
     } else {

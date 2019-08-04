@@ -14,8 +14,8 @@ _greatorangejuice_
 | 4h         | add base structure                        |
 | 2h         | add persons cards with database           |
 | 4h         | setup routes, set props, add initial json |
-| 1h      | add developers page                       |
-| 1h      | add Yandex Maps                       |
+| 1h         | add developers page                       |
+| 1h         | add Yandex Maps                           |
 
 Time tracker
 _natescorp_
@@ -38,14 +38,16 @@ _TomSssM_
 Time tracker
 _belofelcita_
 
-| time spent | feature    |
-| ---------- | ---------- |
-| 4h         | add search |
+| time spent | feature               |
+| ---------- | --------------------- |
+| 4h         | add search            |
+| 4h         | add gallery           |
+| 1h         | add search in english |
 
 Time tracker
 _jetalai3_
 
 | time spent | feature                                          |
-| ---------- | -------------------------------------------------|
+| ---------- | ------------------------------------------------ |
 | 3h         | add timeline component                           |
 | 5h         | studying and implementation of i18next framework |

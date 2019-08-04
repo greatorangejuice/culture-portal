@@ -9,6 +9,10 @@
     "footer": "© 2019 Minsk, Belarus",
     "workList": "Worklist:",
     "workName": "Work",
-    "publicationYear": "Publication year"
+    "publicationYear": "Publication year",
+    "all_place": "All places",
+    "minsk": "Minsk region",
+    "vitebsk": "Vitebsk region",
+    "vilna": "Vilna province"
   }
 }
